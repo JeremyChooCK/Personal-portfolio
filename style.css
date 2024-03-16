@@ -1,6 +1,7 @@
 *{
   margin:0px;
   font-family: 'Telegrama';
+  /* outline: solid blue 2px; */
 }
 input[type="text"]{
   font-family: 'Telegrama', sans-serif;
@@ -44,7 +45,9 @@ input[type="text"]{
 
 body{
   font-family: 'Telegrama', sans-serif;
+  background-color: #561928;
 }
+
 header > div{
   /* outline: green solid 1px; */
   display: flex;
@@ -54,7 +57,7 @@ header > div{
 #linkicons{
   /* outline: rgb(255, 0, 200) solid 1px; */
   text-decoration: none;
-  color:rgb(255, 251, 0);
+  color:rgb(255, 255, 255);
   font-size: 2rem;
   text-align: center;
   padding-left:2rem;
@@ -67,6 +70,7 @@ header > div{
   padding-left:2.5rem;
   padding-right: 2.5rem;
   cursor: pointer;
+  color:rgb(255, 251, 0);
 }
 .next{
   text-decoration: none;
@@ -127,7 +131,7 @@ nav{
   cursor: pointer;
 }
 #videoBG{
-  position: fixed;
+  position: absolute;
   z-index: -2;
   top:0;
 }
@@ -203,6 +207,8 @@ nav{
   /* outline:rgb(255, 255, 255) solid 2px; */
   /* margin-top: 30vh; */
   padding-top: 1.5vh;
+  background-color: #833a31;
+
 }
 .projects{
   outline:rgb(255, 255, 255) solid 2px;
@@ -365,16 +371,14 @@ iframe{
 
 #form-main{
   width:100%;
+  height: 100vh;
   float:left;
-  padding-top:30px;
+  display: flex;
+  align-items: center;
 }
 
 #form-div {
   background-color: rgba(29, 29, 29, 0);
-  padding-left:35px;
-  padding-right:35px;
-  padding-top:13.5%;
-  padding-bottom:13.5%;
   width: 450px;
   float: left;
   left: 50%;
@@ -497,7 +501,6 @@ input:focus, textarea:focus {
   width: 0px;
   height: 76px;
   background-color: #fbfbfb;
-  
 }
 
 .submit:hover .ease{
@@ -508,6 +511,11 @@ input:focus, textarea:focus {
 }
 footer > div > div > form > h1{
     color: white;
+
+}
+footer{
+  background-image: url("./images/trees.jpg");
+  height: 100vh;
 }
 
 @media only screen and (max-width: 580px) {
