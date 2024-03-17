@@ -21,19 +21,19 @@ input[type="text"]{
     }
   }
 @media (min-aspect-ratio: 16/9) {
-    #videoBG {
+    #BG {
     width:100%;
     height: auto;
     }
 }
 @media (max-aspect-ratio: 16/9){
-    #videoBG {
+    #BG {
     width:auto;
     height: 100%;
     }
 }
 @media (max-width: 767px) {
-    #videoBG {
+    #BG {
     display: none;
     }
     body{
@@ -130,10 +130,11 @@ nav{
   box-shadow: inset 200px 0 0 0 rgb(255, 251, 0);
   cursor: pointer;
 }
-#videoBG{
+#BG{
   position: absolute;
   z-index: -2;
   top:0;
+  left: 0;
 }
 
 .wave{
