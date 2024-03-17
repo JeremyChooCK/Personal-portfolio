@@ -391,7 +391,7 @@ iframe{
   /* outline:rgb(255, 7, 181) solid 2px; */
   /* background-color: rgba(29, 29, 29, 0.9); */
   border-radius: 30px;
-  height: 50vh;
+  height: fit-content;
   margin-left: 15vh;
   margin-right: 15vh;
   padding: 10px;
